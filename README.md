@@ -1,4 +1,4 @@
-![Capture d'écran 2024-09-03 161033](https://github.com/user-attachments/assets/3de18bbd-ae2c-4bca-8996-1e8de6b3e0ac)![Capture d'écran 2024-09-03 161033](https://github.com/user-attachments/assets/d4cb94fb-1941-435c-a8a0-da34d968cac1)![Capture d'écran 2024-09-03 223647](https://github.com/user-attachments/assets/612ba0cb-8080-4f72-b864-0e18cf86bdb6)The main idea is to : trigger manually the pipeline from jenkins , which will build , test and deploy the app to EKS cluster , the build stage will build the app into docker image and push it to dockerhub and which will be later pulled by the deployment file . to obtain finally the app on EKS cluster :
+The main idea is to : trigger manually the pipeline from jenkins , which will build , test and deploy the app to EKS cluster , the build stage will build the app into docker image and push it to dockerhub and which will be later pulled by the deployment file . to obtain finally the app on EKS cluster :
 
 ![image](https://github.com/user-attachments/assets/e0ea38dc-ee33-4df3-ab96-ce2c289d8e85)
 
